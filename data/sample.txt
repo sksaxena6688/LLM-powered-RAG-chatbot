@@ -1,0 +1,29 @@
+RAG Chatbot Sample Document
+
+What is RAG?
+RAG stands for Retrieval-Augmented Generation. It is a technique that combines information retrieval with language model generation to produce more accurate and grounded responses.
+
+How does RAG work?
+1. Documents are split into chunks
+2. Each chunk is converted into a vector embedding
+3. Embeddings are stored in a vector database
+4. When a user asks a question, it is also converted to an embedding
+5. The most similar document chunks are retrieved
+6. These chunks are provided as context to the language model
+7. The model generates an answer based only on the provided context
+
+Benefits of RAG
+- Reduces hallucination by grounding answers in source documents
+- Allows updating knowledge without retraining the model
+- Provides source attribution for answers
+- Works with private or proprietary documents
+
+Components of a RAG System
+- Document Loader: Ingests PDF, text, or other document formats
+- Text Splitter: Breaks documents into manageable chunks
+- Embedding Model: Converts text to vector representations
+- Vector Store: Efficiently stores and retrieves embeddings
+- Language Model: Generates natural language responses
+- Retriever: Finds relevant chunks based on similarity
+
+This sample document demonstrates how RAG can answer questions about itself.

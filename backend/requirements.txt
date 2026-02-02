@@ -1,0 +1,9 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+langchain==0.2.16
+langchain-community==0.2.17
+langchain-nvidia-ai-endpoints==0.3.5
+faiss-cpu==1.7.4
+pypdf==3.17.4
+python-dotenv==1.0.0
+pydantic==2.9.0
